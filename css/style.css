@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.singUp {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.nav-link img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    height: 32px;
+    width: 32px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+
+/* banner-section */
+.banner-section {
+    background-image: url(../img/Rectangle.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.304762px;
+    color: #FFFFFF;
+    padding-top: 10%;
+}
+
+.container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.topFooter {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(153, 155, 168, 0.15) 0px 3px 4px;
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    margin: 0px auto;
+    bottom: -25px;
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+    width: 98%;
+    transform: translateX(-50%);
+}
+
+.topFooter p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-left: -77px;
+    margin-bottom: 4px;
+    padding-top: 15px;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    /* border: 1px solid rgb(206, 212, 218); */
+    /* border-radius: 0.25rem; */
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    appearance: none;
+    border: none;
+}
+
+.line {
+    width: 1px;
+    height: 35px;
+    left: 410px;
+    top: 632px;
+    border: 1px solid #EDE8E9;
+    padding: 0px;
+    margin-top: 27px;
+}
+
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 15.666667%;
+}
+
+.btn-suarch {
+    background: #7963F0;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-suarch img {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    align-items: center;
+}
+
+@media all and (max-width: 767px) {
+    .container h1 {
+        font-size: 34px;
+        line-height: 56px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .col-md-2 {
+        width: 100%;
+    }
+
+    .topFooter p {
+        margin-right: 68%;
+    }
+
+    .btn-suarch {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
